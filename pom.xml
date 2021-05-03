@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.test</groupId>
-  <artifactId>HelloWorldMaven-Example</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <artifactId>HelloWorldMaven</artifactId>
+  <version>1.0.6-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -15,11 +15,11 @@
   </properties>
   
 <distributionManagement>
-    <repository>
-      <id>internal.repo</id>
-      <name>Internal Repo</name>
-      <url>file://var/lib/jenkins/myartifacts</url>
-    </repository> 
+  <repository>
+    <id>internal.repo</id>
+    <name>Internal Repo</name>
+    <url>file:///var/lib/jenkins/myartifacts/</url>
+  </repository> 
 </distributionManagement>
 
   <dependencies>
